@@ -1,0 +1,191 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* navbar */
+.navbar-brand {
+
+  margin: 0px 0px 0px 15px;
+  text-align: center;
+  font-family: Dancing script;
+  font-size: 40px;
+
+}
+
+.navbar .navbar-nav .nav-item a {
+
+  padding: 15px;
+  font-size: medium;
+  color: black;
+}
+
+.navbar .navbar-nav .nav-item a:hover {
+  color: white;
+  border-radius: 5px;
+  background-color: #884A39;
+}
+
+.navbar .navbar-nav {
+  padding: 10px;
+
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* navbar end */
+/*  second slider */
+.img-carousel {
+  height: 400px;
+
+}
+
+.carousel-item {
+  height: 400px;
+
+}
+
+.carousel-caption {
+  text-align: right;
+
+  padding-bottom: 0px;
+}
+
+/* line all place */
+.line {
+  width: 110px;
+  height: 3px;
+  background-color: rgb(48, 45, 45);
+  display: inline-block;
+}
+
+/* icon with words */
+#section-one {
+  padding-top: 50px;
+  padding-bottom: 50px
+}
+
+#section-one a {
+  text-decoration: none;
+  color: black;
+
+}
+
+#section-one a:hover {
+  color: black;
+  font-size: xx-large;
+  font-weight: 800;
+}
+
+
+/* image over words */
+#section-two {
+  position: relative;
+  min-height: 200px;
+  background: url(../images/working.jpg);
+  background-attachment: fixed;
+  color: #fff;
+}
+
+.overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+
+
+
+
+
+/* user review start */
+#carouselExample .img-wrapper {
+  height: 200px;
+  width: 100%;
+}
+
+#carouselExample img {
+  height: 100%;
+  width: 100%;
+}
+
+#carouselExample .card {
+  width: 300px;
+  height: 400px;
+}
+
+/* user review end */
+
+
+
+/* footer start */
+
+#foot {
+  border-right: 1px solid white !important;
+
+}
+
+@media (max-width:768px) {
+  #foot {
+      border-right: none !important;
+  }
+}
+
+.footercon li {
+  list-style-type: none;
+}
+
+.footercon li a {
+  text-decoration: none;
+  color: white;
+}
+
+.footercon li:hover {
+  color: black;
+  font-size: large;
+  
+}
+
+/* footer end */
+
+/* login modal start */
+@media (max-width:575px) {
+  #loginModal {
+      padding: 10px;
+
+  }
+}
+
+.modal-content {
+  background: #DFA67B;
+}
+
+#main-footer {
+  background-color: #884A39;
+}
+/* login modal end */
+/* validation messge  start*/
+.errmsg {
+  color: red;
+  padding: 3px;
+}
+
+/* validation message end */
+
+.allbtn {
+  background-color: #C38154;
+  color: white;
+}
+
+.booking
+{
+  background-color: #C38154;
+}
+
+
+
